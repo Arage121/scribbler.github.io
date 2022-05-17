@@ -1,0 +1,69 @@
+html{
+  height: 100%;
+  width:100%
+}
+body{
+   background: url('background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   margin: 0 !important;
+   background-size: 100% cover!important;
+   overflow:hidden;
+   display: block;
+   height: 100%;
+}
+#main-container-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+}
+.yellow-button{
+    height: 45px;
+    width: 130px;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 500;
+    font-weight: bold;
+    font-size: 100%;
+    background: #DAB641;
+    color: black;
+    float: center;
+    margin: 0px 10px 130px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.postButtons{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+textarea{
+  margin-top: 10px;
+}
+.create-btn{
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: green;
+  font-size: 20px;
+  width:100px;
+  color: white;
+  padding: 10px;
+  align-self: center;
+  font-family: Abel;
+}
+.post-modal-content{
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 70%;
+}
+
+/* Set a style for the rest of the elements besides the header elements on the index.html page */

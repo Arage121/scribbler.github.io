@@ -1,0 +1,128 @@
+/* Set a style for all elements inside the header i.e. Sign Up button, Sign In button,
+the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.title-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blue-button{
+  width: 100px;
+  padding: 10px;
+  border-radius: 1px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 90%;
+  background: #0000ff;
+  color: #fff;
+  float: right;
+  margin: 10px 10px 0px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+  font-family: 'Satisfy', cursive;
+  font-size: 45px;
+  color: blue;
+  margin: 0;
+}
+
+.sub-title{
+  font-family: 'Marck Script', cursive;
+  font-size: 10;
+  color: black;
+  margin: 0;
+}
+
+.login-buttons-container{
+  padding: 10px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  outline: none;
+  font-family:'Roboto', sans-serif;
+}
+
+.label-text {
+  color: grey;
+  font-weight: bold;
+  margin: 10px 0;
+  font-family:'Roboto', sans-serif;
+}
+
+.modal-content{
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+}
+
+.modal-head {
+  display: flex;
+  flex-direction: column;
+}
+
+.close {
+  font-size: xx-large;
+  display: flex;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.modal-title{
+  align-self: center;
+  font-family: Abel;
+}
+
+.signin-btn {
+  background-color: green;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: Abel;
+}
+
+.signup{
+  color: blue;
+  font-weight: bolder;
+  margin-left: 10px;
+  cursor: pointer;
+  font-family: Abel;
+}
+
+.bottom-banner{
+  font-family: Abel;
+}
